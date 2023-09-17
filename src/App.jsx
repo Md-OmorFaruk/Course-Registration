@@ -1,4 +1,4 @@
-gimport { useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import CourseList from './components/CourseList/CourseList'
 import Courses from './components/Courses/Courses'
@@ -14,15 +14,24 @@ function App() {
   const handleAddToCourseName = (course, credit) =>{
     const newCourseList = [...courseList, course];
     setCourseList(newCourseList);
+    // if (!newCourseList) {
+    //   alert('This course you purches already');
+    // }
 
     const newTotalCredit = totalCredit + +credit;
-    setTotalCredit(newTotalCredit);
+   
+    if (newTotalCredit > 20) {
+      setTotalCredit(20);
+    }
+    else {
+       setTotalCredit(newTotalCredit);
+    }
     
 
     const newRemaining = remaining - credit;
     
     if(newRemaining < 0){
-      toast.error('Courses Credit is exceed !!')
+      toast.error('Courses credit is exceed !')
     }
     else{
       setRemaining(newRemaining);
