@@ -17,12 +17,14 @@ function App() {
     // }
 
     const newTotalCredit = totalCredit + +credit;
+    const newRemaining = remaining - credit;
+    const remain =20 - totalCredit;
     if (newTotalCredit <= 20) {
       setTotalCredit(newTotalCredit);
        const newCourseList = [...courseList, course];
       setCourseList(newCourseList);
       
-    const newRemaining = remaining - credit;
+   
     
     if(newRemaining < 0){
       toast.error('Courses credit is exceed !')
@@ -32,6 +34,9 @@ function App() {
       
       setRemaining(newRemaining);
     }
+    }
+    else {
+      toast.error(`Courses credit is exceed ! You have only ${remain} credit to select`)
     }
 
   
