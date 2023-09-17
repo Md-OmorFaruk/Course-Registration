@@ -1,0 +1,75 @@
+[
+  {
+    "cover_img": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=900&t=st=1694900393~exp=1694900993~hmac=443b988be28fabef4f762d460ffa90ee362b6ee6e4bbe1cd1a4bff20f391596e",
+    "id": 1,
+    "title": "Introduction to Programming",
+    "description": "Learn the basics of programming and coding in this introductory course.",
+    "price": 99,
+    "credit": "3"
+  },
+  {
+    "cover_img": "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?w=996&t=st=1694900470~exp=1694901070~hmac=975155a6c8b655ed71610f3c6899cda07cf2f4ce102c5d1eef5d4c896299c7fa",
+    "id": 2,
+    "title": "Web Development Fundamentals",
+    "description": "Explore the world of web development and build your first website.",
+    "price": 149,
+    "credit": "4"
+  },
+  {
+    "cover_img": "https://img.freepik.com/free-vector/data-concept-illustration-idea-collecting-analysing-using_613284-1574.jpg?w=1060&t=st=1694900534~exp=1694901134~hmac=0351e299d54b799cd959d4c1f9d437cf8de226c10fa5ed8396f3a729ca62a89e",
+    "id": 3,
+    "title": "Data Science Essentials",
+    "description": "Discover the fundamentals of data science and data analysis techniques.",
+    "price": 129,
+    "credit": "3"
+  },
+  {
+    "cover_img": "https://img.freepik.com/free-vector/graphic-design-elements-collection_23-2147796019.jpg?w=740&t=st=1694900569~exp=1694901169~hmac=8909cd1311e0dba692412d87224bda51360fec70d51880da9bd53d026f4a43f6",
+    "id": 4,
+    "title": "Graphic Design Mastery",
+    "description": "Master the art of graphic design and create stunning visuals.",
+    "price": 159,
+    "credit": "5"
+  },
+  {
+    "cover_img": "https://img.freepik.com/free-vector/digital-marketing-landing-page_33099-1726.jpg?w=996&t=st=1694900603~exp=1694901203~hmac=8d09cf7fcc9a98b58bbfe5bffaa7e7f1eb32a7b42a15ea496eac2441890c5195",
+    "id": 5,
+    "title": "Digital Marketing Strategies",
+    "description": "Learn effective digital marketing strategies for online success.",
+    "price": 139,
+    "credit": "4"
+  },
+  {
+    "cover_img": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept_335657-2412.jpg?w=996&t=st=1694900652~exp=1694901252~hmac=5c5062d1ab5b953ba5dc82d0c47c5649adabc82c0a84bbfc726150d2847026b4",
+    "id": 6,
+    "title": "Advanced JavaScript Development",
+    "description": "Dive deep into JavaScript and build advanced web applications.",
+    "price": 179,
+    "credit": "5"
+  },
+  {
+    "cover_img": "https://img.freepik.com/free-photo/ai-cloud-concept-with-robot-arm_23-2149739748.jpg?w=900&t=st=1694900689~exp=1694901289~hmac=eb80ac61bbcb917f8e3b5ba83b2b9636870915ba9eb5f855539ef32e0693e435",
+    "id": 7,
+    "title": "Machine Learning Fundamentals",
+    "description": "Get started with machine learning and artificial intelligence.",
+    "price": 169,
+    "credit": "4"
+  },
+  {
+    "cover_img": "https://img.freepik.com/free-photo/creativity-creative-ideas-imagination-inspiration-design-concept_53876-123736.jpg?t=st=1694900708~exp=1694901308~hmac=4ae0d7e79941009c63769a33cfcf66cdbcc0108ab1e331df5519c30c8cc5ec6e",
+    "id": 8,
+    "title": "Creative Writing Workshop",
+    "description": "Hone your creative writing skills and craft compelling stories.",
+    "price": 119,
+    "credit": "3"
+  },
+  {
+    "cover_img": "https://img.freepik.com/free-photo/camera-photographic-with-smartphone-devices-generative-ai_188544-12171.jpg?t=st=1694900734~exp=1694901334~hmac=c4aa448972663643a376cc43a561879c3ef5d868a2372565518a070edcba226a",
+    "id": 9,
+    "title": "Photography for Beginners",
+    "description": "Capture stunning photos with your camera in this introductory course.",
+    "price": 129,
+    "credit": "3"
+  }
+]
+
