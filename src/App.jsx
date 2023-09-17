@@ -12,30 +12,29 @@ function App() {
   const [totalCredit, setTotalCredit] = useState(0);
 
   const handleAddToCourseName = (course, credit) =>{
-    const newCourseList = [...courseList, course];
-    setCourseList(newCourseList);
     // if (!newCourseList) {
     //   alert('This course you purches already');
     // }
 
     const newTotalCredit = totalCredit + +credit;
-   
-    if (newTotalCredit > 20) {
-      setTotalCredit(20);
-    }
-    else {
-       setTotalCredit(newTotalCredit);
-    }
-    
-
+    if (newTotalCredit <= 20) {
+      setTotalCredit(newTotalCredit);
+       const newCourseList = [...courseList, course];
+      setCourseList(newCourseList);
+      
     const newRemaining = remaining - credit;
     
     if(newRemaining < 0){
       toast.error('Courses credit is exceed !')
-    }
-    else{
       setRemaining(newRemaining);
     }
+    else{
+      
+      setRemaining(newRemaining);
+    }
+    }
+
+  
     
   }
 
