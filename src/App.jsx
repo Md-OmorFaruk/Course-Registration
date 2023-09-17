@@ -11,43 +11,41 @@ function App() {
   const [remaining, setRemaining] = useState(20);
   const [totalCredit, setTotalCredit] = useState(0);
 
-  const handleAddToCourseName = (course, credit) =>{
-    // if (!newCourseList) {
-    //   alert('This course you purches already');
-    // }
+  const handleAddToCourseName = (course, credit) => {
 
-    const newTotalCredit = totalCredit + +credit;
-    const newRemaining = remaining - credit;
-    const remain =20 - totalCredit;
-    if (newTotalCredit <= 20) {
-      setTotalCredit(newTotalCredit);
-       const newCourseList = [...courseList, course];
-      setCourseList(newCourseList);
+      const newTotalCredit = totalCredit + +credit;
+      const newRemaining = remaining - credit;
+      const remain = 20 - totalCredit;
+      if (newTotalCredit <= 20) {
+        setTotalCredit(newTotalCredit);
+        const newCourseList = [...courseList, course];
+        setCourseList(newCourseList);
       
    
     
-    if(newRemaining < 0){
-      toast.error('Courses credit is exceed !')
-      setRemaining(newRemaining);
-    }
-    else{
+        if (newRemaining < 0) {
+          toast.error('Courses credit is exceed !')
+          setRemaining(newRemaining);
+        }
+        else {
       
-      setRemaining(newRemaining);
-    }
-    }
-    else {
-      toast.error(`Courses credit is exceed ! You have only ${remain} credit to select`)
-    }
+          setRemaining(newRemaining);
+        }
+      }
+      else {
+        toast.error(`Courses credit is exceed ! You have only ${remain} credit to select`)
+      }
 
   
-    
+  
   }
+  
 
 
 
   return (
     <>
-      <h1 className='text-3xl text-center font-bold p-4 mt-6'>Course Registration</h1>
+      <h1 className='text-4xl text-center font-bold p-6 mt-6'>Course Registration</h1>
 
      <div className='flex'>
      <Courses handleAddToCourseName={handleAddToCourseName}></Courses>

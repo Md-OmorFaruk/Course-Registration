@@ -5,7 +5,7 @@
     "title": "Introduction to Programming",
     "description": "Learn the basics of programming and coding in this introductory course.",
     "price": 99,
-    "credit": "3"
+    "credit": "1"
   },
   {
     "cover_img": "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?w=996&t=st=1694900470~exp=1694901070~hmac=975155a6c8b655ed71610f3c6899cda07cf2f4ce102c5d1eef5d4c896299c7fa",
@@ -29,7 +29,7 @@
     "title": "Graphic Design Mastery",
     "description": "Master the art of graphic design and create stunning visuals.",
     "price": 159,
-    "credit": "5"
+    "credit": "2"
   },
   {
     "cover_img": "https://img.freepik.com/free-vector/digital-marketing-landing-page_33099-1726.jpg?w=996&t=st=1694900603~exp=1694901203~hmac=8d09cf7fcc9a98b58bbfe5bffaa7e7f1eb32a7b42a15ea496eac2441890c5195",
